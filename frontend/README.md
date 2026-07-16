@@ -8,7 +8,7 @@ Depuis la racine du dépôt :
 
 ```bash
 cd frontend
-npm create vite@latest . -- --template react
+npm create frontendàreact
 npm install
 
 # Dépendances utiles
