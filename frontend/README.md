@@ -1,6 +1,6 @@
-# Frontend — SPA React (Vite)
+# Frontend — React
 
-> À la **première installation uniquement**, il faut générer le projet React dans ce dossier.
+>il faut générer le projet React dans ce dossier.
 
 ## Première création du projet (une seule fois)
 
@@ -20,28 +20,8 @@ Configurer l'URL de l'API dans `frontend/.env` :
 ```
 VITE_API_URL=http://localhost:8000/api
 ```
-
-## Installation (membres suivants)
-
-```bash
-npm install
-```
-
-## Lancer
-
-```bash
-npm run dev      # http://localhost:5173
-```
-
-## Build
-
-```bash
-npm run build
-```
-
 ## Structure suggérée
 
-```
 src/
 ├── api/          # appels axios vers l'API Laravel
 ├── components/   # composants réutilisables (Card produit, étoiles de note…)
